@@ -11,7 +11,7 @@ class orang {
         : nama{iNama}, umur{iUmur} {}
 
         std::string getNama() { return nama; }
-        int getUmuc() { return umur; }
+        int getUmur() { return umur; }
 	virtual void printData() {
 		std::cout << "Print Data Orang" << "\n";
 		std::cout << "Nama: " << nama << "\n";
